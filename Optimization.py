@@ -9,7 +9,7 @@ f4 = lambda x: np.exp(3*x) + 5*np.exp(-2*x) #[0, 1]
 f5 = lambda x: 0.2*x*np.log(x) + (x -2.3)**2 #[0.5, 2.5]
 f6 = lambda x: x**2 + 10 * np.sin(3 * x) + np.cos(5 * x) #[-5, 5]
 f7 = lambda x: x**2 + 5 * np.sin(10 * x) #[-3, 3]
-E = np.exp(-5)
+E = np.exp(-10)
 N = 1000
 
 def golden_section(f, a, b, E, N):
